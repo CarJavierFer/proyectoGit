@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+
+    <body>
+        <h1 class="title">Lobos</h1>
+        <div class="gallery">
+            <picture class="gallery__picture">
+                <source media="(min-width: 1200px)" srcset="img/gray-wolf-large.jpg" />
+                <source media="(max-width: 480px)" srcset="img/gray-wolf-small.jpg" />
+                <img class="gallery__img" src="img/gray-wolf-medium.jpg" alt="Lobo Gris" />
+                <h2 class="gallery__subtitle">El lobo gris</h2>
+                <!-- No estoy seguro de que sea semánticamente correcto meter un h2 dentro de un picture, pero no encontré nada al respecto, otra solución englobar ambos dentro de un div container para poder posicionar el texto con respecto a él -->
+            </picture>
+            <picture class="gallery__picture">
+                <source media="(min-width: 1200px)" srcset="img/red-wolf-large.jpg" />
+                <source media="(max-width: 480px)" srcset="img/red-wolf-small.jpg" />
+                <img class="gallery__img" src="img/red-wolf-medium.jpg" alt="Lobo Rojo" />
+                <h2 class="gallery__subtitle">El lobo rojo</h2>
+            </picture>
+            <picture class="gallery__picture">
+                <source media="(min-width: 1200px)" srcset="img/arctic-wolf-large.jpg" />
+                <source media="(max-width: 480px)" srcset="img/arctic-wolf-small.jpg" />
+                <img class="gallery__img" src="img/arctic-wolf-medium.jpg" alt="Lobo Ártico" />
+                <h2 class="gallery__subtitle">El lobo artico</h2>
+            </picture>
+            <picture class="gallery__picture">
+                <source media="(min-width: 1200px)" srcset="img/ethiopian-wolf-large.jpg" />
+                <source media="(max-width: 480px)" srcset="img/ethiopian-wolf-small.jpg" />
+                <img class="gallery__img" src="img/ethiopian-wolf-medium.jpg" alt="Lobo Etíope" />
+                <h2 class="gallery__subtitle">El lobo etiope</h2>
+            </picture>
+            <picture class="gallery__picture">
+                <source media="(min-width: 1200px)" srcset="img/indian-wolf-large.jpg" />
+                <source media="(max-width: 480px)" srcset="img/indian-wolf-small.jpg" />
+                <img class="gallery__img" src="img/indian-wolf-medium.jpg" alt="Lobo Indio" />
+                <h2 class="gallery__subtitle">El lobo indio</h2>
+            </picture>
+            <picture class="gallery__picture">
+                <source media="(min-width: 1200px)" srcset="img/rad-wolf-large.jpg" />
+                <source media="(max-width: 480px)" srcset="img/rad-wolf-small.jpg" />
+                <img class="gallery__img" src="img/rad-wolf-medium.jpg" alt="Lobo Rad" />
+                <h2 class="gallery__subtitle">El lobo Rad</h2>
+            </picture>
+        </div>
+    </body>
+</html>
